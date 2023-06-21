@@ -1,0 +1,79 @@
+#add-new-person-btn {
+  margin-right: 1rem;
+}
+.add-new-person-container {
+  width: 100%;
+  height: 70%;
+  border: 2px solid var(--primary);
+}
+
+.retrieve-info-container {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary);
+}
+
+.add-new-person-container > p,
+.retrieve-info-container > p {
+  width: 20%;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.add-new-person-container > table {
+  border: 2px solid gray;
+  padding: 0.5rem;
+  width: 100%;
+  /* height: 300px; */
+}
+
+.add-new-person-container > table > thead {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.add-new-person-container > table > thead > tr > th {
+  padding: 0.5rem;
+}
+
+.add-new-person-container > table > tbody > tr > td {
+  /* border: 2px solid rgb(0, 255, 60); */
+  height: 10px;
+  text-align: center;
+}
+
+#add-btn {
+  float: right;
+  margin: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.find-container {
+  /* border: 2px solid green; */
+  width: 100%;
+  margin: 1rem;
+}
+
+.find-container > input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.find-container #find-btn {
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
+}
+
+#show-info-table {
+  border: 2px solid var(--primary);
+  margin: 1rem;
+}
+
+#show-info-table tr td {
+  width: 5rem;
+  padding: 0.5rem;
+}

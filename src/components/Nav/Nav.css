@@ -1,0 +1,16 @@
+.tab-container {
+  margin-bottom: 2rem;
+}
+
+.tab-container > a,
+#add-btn,
+#find-btn {
+  border: none;
+  outline: none;
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
